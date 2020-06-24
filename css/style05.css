@@ -1,0 +1,19 @@
+#contact {
+  background-color: #e9eae2;
+  font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .footer {
+  padding-top: 15vh;
+  padding-left:5vw;
+  padding-right: 5vw;
+}
+
+
+@media (max-width: 320px){
+
+.copyright {
+	font-size: 10px;
+	
+  }
+}

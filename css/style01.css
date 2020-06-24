@@ -1,0 +1,83 @@
+#header {
+  background-color: #e9eae2;
+  }
+  
+  .chairs {
+  background-image: url("https://i.ibb.co/Ch4MtgV/head.png");
+  background-repeat: no-repeat;
+  display: block;
+  padding-top: 50px;
+  padding-left: 50px;
+  background-size: contain;
+  min-height: 400px;
+  height: 100%;
+}
+
+.header_text {
+  font-size: 13px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.077;
+  padding-top: 20vh;
+}
+
+.blue_block {
+  height: auto;
+  max-height: 400px;
+  position: relative;
+}
+
+.fa_header_and_footer {
+  color: #7bcbc1;
+  font-size: 25px;
+}
+
+.menu_normal {
+  display: block;
+}
+
+.menu_reverce {
+  display: none;
+}
+
+@media (max-width: 320px) {
+	.chairs {
+  background-image: none;
+}
+
+.blue_block {
+  display: none;
+}
+
+.fa_header_and_footer {
+	min-width: 130px;
+	}
+
+  .chairs img {
+    margin-top: 15px;
+  }
+
+  .menu_normal {
+    display: none;
+  }
+
+  .menu_reverce {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .header_text {
+    padding-top: 14vh;
+  }
+
+  .menu_normal {
+    display: block;
+  }
+
+  .menu_reverce {
+    display: none;
+  }
+}

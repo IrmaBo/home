@@ -1,0 +1,113 @@
+.background {
+	background-image: url("images/chicago-night.jpg");
+}
+
+.menu {
+
+  padding-left: 20px;
+  background: #f8c255;
+  right: 60px;
+  position: absolute;
+  width: auto;
+  height: 98px;
+  opacity: 0;
+  margin-top: 3vh;
+  margin-right: 1vw;
+}
+
+.menu a {
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.786;
+  padding: 20px;
+}
+
+.icon-close {
+  background-color: #f8c255;
+  cursor: pointer;
+  padding: 30px;
+  border-style: none;
+}
+
+.icon-menu {
+  background-color: #7acec3;
+  cursor: pointer;
+  padding: 35px;
+  position: absolute;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(233, 234, 226);
+  margin-left: 85vw;
+  margin-top: 3vh;
+  display: block;
+}
+
+.icon-close img {
+  align-self: center;
+}
+
+.menu a:hover {
+  font-weight: bolder;
+ }
+
+.animated {
+  -webkit-animation-duration: 500ms;
+  -moz-animation-duration: 500ms;
+  animation-duration: 500ms!important;
+}
+
+
+@media (max-width: 320px){
+
+	.icon-menu {
+		margin-top: 3vh;
+  padding: 15px;
+  margin-left: 69vw;
+}
+
+.menu a {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 3.2;
+	margin-top: 0;
+  padding-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+.menu {
+	display: block;
+  padding-left: 0;
+  right: 0;
+  margin-top: 3vh;
+  margin-right: 8vw;
+	margin-bottom: 3vh;
+	width: 95px;
+	height: auto;
+}
+
+.icon-close {
+  padding: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
+}
+
+@media (min-width: 1200px) {
+	.icon-menu {
+	  margin-left: 83vw;
+	  margin-top: 4vh;
+	}
+
+	.menu {
+	  margin-right: 3.5vw;
+	}
+}
